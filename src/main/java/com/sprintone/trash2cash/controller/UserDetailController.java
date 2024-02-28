@@ -16,7 +16,7 @@ public class UserDetailController {
      @PostMapping("/save_user")
      public String saveUserDetails(@RequestBody UserDetailDTO userDetailDTO){
      userDetailService.saveUserDetails(userDetailDTO);
-      return "user information saved successfully";
+      return "user information saved ";
 
      }
 
